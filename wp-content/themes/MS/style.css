@@ -1,0 +1,109 @@
+/*
+Theme Name: MS
+Theme URI: http://www.matiassantiago.cl/
+Author: Gonzalo Zapata
+Author URI: http://www.gonzalozapata.cl/
+Description: Tema desarrollado para el sitio de Matías Santiago.
+Version: 1.0
+Text Domain: matiassantiago
+*/
+
+
+@charset "utf-8";
+
+.textodeportada {
+	color:#FFF;
+}
+.mayusculas {
+	text-transform:uppercase;
+}
+hr.portada {
+	margin:0;
+	padding:0;
+}
+.contenidos {
+	background-color:#FFF;
+}
+
+img {
+	max-width:100%;
+	height:auto;
+}
+
+/*------------------------------------*\
+    $WORDPRESS CORE
+\*------------------------------------*/
+   
+.alignnone {
+	margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+a img.alignnone {
+	margin:5px 20px 20px 0;
+}
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wp-caption {
+	background:#FFF;
+	border:1px solid #F0F0F0;
+	max-width:96%;
+	padding:5px 3px 10px;
+	text-align:center;
+}
+.wp-caption.alignnone {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+.wp-caption img {
+	border:0 none;
+	height:auto;
+	margin:0;
+	max-width:98.5%;
+	padding:0;
+	width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	font-size:12px;
+	line-height:20px;
+	margin:0;
+	padding:10px 4px 5px;
+}
+.sticky {
+	
+}
+.bypostauthor {
+	
+}
